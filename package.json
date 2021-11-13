@@ -1,0 +1,21 @@
+{
+  "name": "practica_070323",
+  "version": "1.0.0",
+  "description": "Esta es la primer practica que implementa un API Rest en Node con accesso a MYSQL para posteriormente consumirla con una aplicacion FLUTTER",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Sarai Santiago",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+    
+  }
+}
