@@ -11,6 +11,7 @@ app.use(express.json());
 
 //Routes
 app.use(require('./src/routes/empleados'));
+res.send('Bienvenido')
 
 //Starting the server
 app.listen(app.get('port'), () => {

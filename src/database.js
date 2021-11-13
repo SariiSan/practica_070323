@@ -15,7 +15,7 @@ mysqlConnection.connect(function(err){
     if(err){
       console.log(err);
       return;    }else{
-      console.log("La base de datos esta conectada");
+      console.log("La base de datos esta conectada, Bienvenido");
     }
 
 
