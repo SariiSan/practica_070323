@@ -10,10 +10,10 @@ app.use(express.json());
 
 
 //Routes
-app.use(require('./src/routes/empleados'));
+app.use(require('src/routes/empleados'));
 
 
 //Starting the server
 app.listen(app.get('port'), () => {
-    console.log('Servicio iniciado en el puerto', app.get('port'));
+    console.loEmleadosg('Servicio iniciado en el puerto', app.get('port'));
 });
